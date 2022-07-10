@@ -138,7 +138,7 @@ img {
         color: #212121;
 }
 
-.current-session::after {
+.item .current-session::after {
     content: '';
     display: block;
     width: 100%;
