@@ -136,9 +136,11 @@ img {
         letter-spacing: 0.02em;
         
         color: #212121;
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.item .current-session::after {
+.current-session::after {
     content: '';
     display: block;
     width: 100%;
@@ -178,12 +180,15 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
 
-        color: var(--secondary-color);
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.15;
-        letter-spacing: 0.02em;
+    color: var(--secondary-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         
 }
 .auth-nav .link:hover,
@@ -455,12 +460,16 @@ img {
     width: 20px;
     height: 20px;
     fill: #afb1b8;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
     
 }
 
 .team-socials .team-socials-item{
     border-radius: 50%;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     /* background-color: blue; */
 }
 .team-socials .team-socials-item:hover,
@@ -507,10 +516,13 @@ img {
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    /* padding: 16px 32px; */
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-icon {
     fill: #afb1b8;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -598,6 +610,7 @@ img {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    
     /* margin: 16px auto 30px auto; */
     
 }
@@ -612,6 +625,7 @@ img {
         
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+    
 }
 
 .footer-social-icon {
@@ -624,6 +638,8 @@ img {
 
 .footer-social-list .footer-social-item{
     border-radius: 50%;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     /* background-color: blue; */
 }
 .footer-social-list .footer-social-item:hover,
@@ -661,6 +677,8 @@ img {
         border: none;
         border-radius: 4px;
     
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
